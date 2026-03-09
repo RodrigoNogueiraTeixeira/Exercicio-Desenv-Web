@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo Rodrigo</title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+
+        const Gerar = () => {
+
+            const main = document.getElementById("curriculo")
+            main.style.display = "block";
+            
+
+        }
+
+
+    </script>
+
 </head>
 <body>
 
+    
     <header>
 
         <h1 id="Nome"><strong>Rodrigo Nogueira Teixeira</strong></h1>
@@ -24,14 +39,17 @@
     </header>
 
 
-    <main>
+    <button id="GerarCurriculo" onclick="Gerar()">Gerar Curriculo</button>
+
+
+    <main id="curriculo">
 
         <!--Sobre mim-->
-        <section id="Sobre">
-            <h2>Sobre Mim</h2>
-            <p>Minha carreira é focada na intersecção entre gestão analítica de processos e suporte técnico. Tenho um perfil orientado a dados e qualidade: gerencio um fluxo de cerca de 500 processos mensais de alta sensibilidade, como CNH Social e Leilões
+        <section id="Sobre-Mim">
+            <h2 class="Sobre">Sobre Mim</h2>
+            <p class="Sobre">Minha carreira é focada na intersecção entre gestão analítica de processos e suporte técnico. Tenho um perfil orientado a dados e qualidade: gerencio um fluxo de cerca de 500 processos mensais de alta sensibilidade, como CNH Social e Leilões
             </p>
-            <p>Meu objetivo de carreira e se tornar um programador full stack senior.</p>
+            <p class="Sobre">Meu objetivo de carreira e se tornar um programador full stack senior.</p>
         </section>
 
         <!--Fomrcação-->

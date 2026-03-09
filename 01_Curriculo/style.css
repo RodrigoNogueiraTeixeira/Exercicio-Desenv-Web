@@ -31,9 +31,13 @@ header > nav a {
 header > nav a:hover {
     background-color: white;
     color: rgb(51, 157, 255); /* Muda a cor do texto para dar contraste */
+    border-radius: 200px;
 }
 
 main {
+
+    display: none; 
+    
     max-width: 800px;
     margin: 0 auto;
     background-color: white;
@@ -41,6 +45,8 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+
 
 section {
     margin-bottom: 40px;
